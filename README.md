@@ -56,7 +56,7 @@ module.exports = {
   }
 };
 
-## use loader without using configuration
+## use loader without using configuration, need to use --module-bind parameter
 
 "scripts": {
     "dev": "webpack --mode development --module-bind js=babel-loader",
