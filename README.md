@@ -71,4 +71,22 @@ npm i @babel/preset-react --save-dev
 
 ## install html related
 
+two additional plugin
+- html-webpack-plugin
+- html-loader
+
 npm i html-webpack-plugin html-loader --save-dev
+
+## handle css
+
+npm i mini-css-extract-plugin css-loader --save-dev
+need to declare the plugin in the webpack.config.js
+
+
+## setup dev server
+
+npm i webpack-dev-server --save-dev
+and add the script to package.json
+
+"start": "webpack-dev-server --mode development --open"
+
