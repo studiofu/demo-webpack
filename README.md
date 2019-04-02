@@ -1,5 +1,30 @@
 # demo project for webpack
 
+## by default webpack does not require the configuration file
+- https://www.valentinog.com/blog/webpack-tutorial/
+
+look in ./src/index.js and output ./dist/main.js
+
+```
+production mode: "build": "webpack --mode production"
+development mode: "dev": "webpack --mode development"
+
+npm run dev
+npm run build
+
+```
+
+parameter configuration
+
+```
+"scripts": {
+  "dev": "webpack --mode development ./foo/src/js/index.js --output ./foo/main.js",
+  "build": "webpack --mode production ./foo/src/js/index.js --output ./foo/main.js"
+}
+
+```
+
+
 ## tutorial
 - https://www.valentinog.com/blog/webpack-tutorial/
 
