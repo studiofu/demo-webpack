@@ -27,6 +27,7 @@ parameter configuration
 
 ## tutorial
 - https://www.valentinog.com/blog/webpack-tutorial/
+- https://www.valentinog.com/blog/react-webpack-babel/
 
 ## tutorial - switch from gulp
 - https://www.valentinog.com/blog/from-gulp-to-webpack-4-tutorial/
